@@ -3,11 +3,120 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+
+        <!-- navbar div -->
+        <div class="row">
+            <nav class="navbar"style= " color : white">
+                <div class="container-fluid navbar-items">
+                    <a class="nav-link btn" href="#">About</a>
+                    <a class="nav-link btn" href="#">Contact</a>
+                    <a class="nav-link btn" href="#">Education</a>
+                    <a class="nav-link btn" href="#">Skills</a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- about info and image  -->
+        <div class="row " >
+
+            <div class="col-6 align-self-center" >
+                <h1>I AM PIJUSH BARAI</h1>
+                <h3 class="text-mutext"> Currently student</h3>
+                <a href="https://github.com/pijushbarai" class="btn btn-dark" target="_blank">github</a>
+                <div class="about-text mt-5 pt-5">
+                    <p>I am a problem solver and focused on machine learning and deep learning. currently doing work on rise disease detection</p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <img src="./image/profile.png" alt="img" class="img-fluid">
+            </div>
+        </div>
+
+        <hr>
+        <!-- contact section  -->
+        <div class="row mt-5 pt-5 mb-5 pb-5">
+
+            <div class="col-8">
+                <h1>Contact me <span class="icons"><i class="fa-solid fa-phone"></i></span></h1>
+                <h4>Mail: pijushbarai1@gmail.com</h4>
+                <h4>Phone: (+88) 01759404501</h4>
+            </div>
+
+
+            <div class="col-4 contact-icons">
+                <a class = "icons" href="https://www.facebook.com/pijush.barai.71" target="_blank"><i class="fa-brands fa-square-facebook fa-6x"></i></a>
+                <a class = "icons" href="https://www.linkedin.com/in/pijush-barai-3ba401181/" target="_blank"><i class="fa-brands fa-linkedin fa-6x"></i></a>
+                <a class = "icons" href="https://mail.google.com/mail/u/0/#sent?compose=new"><i class="fa-solid fa-envelope fa-6x"></i></a>
+            </div>
+
+
+        </div>
+        <hr>
+
+
+        <!-- Education -->
+        <div class="row mt-5 mb-5 pt-5">
+
+            <div class="col-7 align-self-center">
+                <h1>Studying in Computer Science & Engineering</h1>
+                <h5>University of Rajshahi</h5>
+            </div>
+
+            <div class="col-5">
+                <a href="https://www.ru.ac.bd/" target="_blank"><img class = "img-fluid p-5" src="./image/ru.svg" alt="Rajshahi University"></a>
+            </div>
+
+
+        </div>
+        <hr>
+
+        <!-- skills -->
+        <div class="row mt-5 mb-5 pb-5 pt-5">
+            <div class="col-5 align-self-center">
+                <h1>I am experienced in </h1>
+            </div>
+            <div class="col-7 d-flex">
+
+                <div class=" me-5 ms-5" style="width: 8rem;">
+                    <img src="./image/pythonlogo.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                    
+                </div>
+
+                <div class=" me-5 " style="width: 8rem;">
+                    <img src="./image/c++logo.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                    
+                </div>
+
+                <div class="me-5 " style="width: 8rem;">
+                    <img src="./image/javalogo.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                    
+                </div>
+
+                <div class="me-5 " style="width: 8rem;">
+                    <img src="./image/HTML5.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Thank you  -->
+
+        <div class="row text-muted text-center pb-5">
+            <h1>THANK YOU</h1>
+        </div>
+
+
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
