@@ -3,12 +3,28 @@ body{
     background-color: black;
 }
 
+.navbar{
+    background-color: black;
+}
 .navbar-items a{ 
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: bold;
     margin: auto;
     font-size: x-large;
+}
+.about-img{
+    height: 800px;
+    background-image: url(./image/profile.png);
+    background-size: cover;
+}
+.blur-bottom{
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0,0, 37);
 }
 .icons{
     background-color: black;
@@ -17,4 +33,19 @@ body{
 .contact-icons a{
     padding: 1rem;
 }
+.navbar-items a:hover{
+    transform: scale(1.2);
+    text-shadow:  5px 5px 10px;
+}
+.phone-icon:hover{
+    color: #45f713;
+}
+.contact-icons a :hover{
+    color: blue;
+    transform: scale(1.1);
+    text-shadow: 5px 5px 10px;
+}
 
+.experienced-icons:hover{
+    transform: scale(1.5);
+}

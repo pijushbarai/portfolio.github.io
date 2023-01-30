@@ -9,25 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
   <body>
-    <div class="container">
-
-        <!-- navbar div -->
-        <div class="row">
-            <nav class="navbar"style= " color : white">
-                <div class="container-fluid navbar-items">
-                    <a class="nav-link btn" href="#">About</a>
-                    <a class="nav-link btn" href="#">Contact</a>
-                    <a class="nav-link btn" href="#">Education</a>
-                    <a class="nav-link btn" href="#">Skills</a>
-                </div>
-            </nav>
+    <nav class="navbar text-light sticky-top">
+        <div class="container-fluid navbar-items">
+            <a class="nav-link " href="#aboutmeid">About</a>
+            <a class="nav-link " href="#contactid">Contact</a>
+            <a class="nav-link " href="#educationid">Education</a>
+            <a class="nav-link " href="#experiencedid">Skills</a>
         </div>
+    </nav>
+    <div class="container">
 
         <!-- about info and image  -->
         <div class="row " >
 
-            <div class="col-6 align-self-center" >
-                <h1>I AM PIJUSH BARAI</h1>
+            <div class="col-6 align-self-center" id = "aboutmeid">
+                <h1 class="placeholder-glow">I AM PIJUSH BARAI</h1>
                 <h3 class="text-mutext"> Currently student</h3>
                 <a href="https://github.com/pijushbarai" class="btn btn-dark" target="_blank">github</a>
                 <div class="about-text mt-5 pt-5">
@@ -35,17 +31,21 @@
                 </div>
             </div>
 
-            <div class="col-6">
-                <img src="./image/profile.png" alt="img" class="img-fluid">
+            <div class="col-6 about-img">
+                <div class="blur-bottom">
+                    
+                </div>
+<!--                 
+                <img src="./image/profile.png" alt="img" class="img-fluid"> -->
             </div>
         </div>
 
         <hr>
         <!-- contact section  -->
-        <div class="row mt-5 pt-5 mb-5 pb-5">
+        <div class="row mt-5 pt-5 mb-5 pb-5" id="contactid">
 
             <div class="col-8">
-                <h1>Contact me <span class="icons"><i class="fa-solid fa-phone"></i></span></h1>
+                <h1 class=>Contact me <span class="icons"><i class="fa-solid fa-phone phone-icon"></i></span></h1>
                 <h4>Mail: pijushbarai1@gmail.com</h4>
                 <h4>Phone: (+88) 01759404501</h4>
             </div>
@@ -63,7 +63,7 @@
 
 
         <!-- Education -->
-        <div class="row mt-5 mb-5 pt-5">
+        <div class="row mt-5 mb-5 pt-5" id="educationid">
 
             <div class="col-7 align-self-center">
                 <h1>Studying in Computer Science & Engineering</h1>
@@ -79,29 +79,29 @@
         <hr>
 
         <!-- skills -->
-        <div class="row mt-5 mb-5 pb-5 pt-5">
+        <div class="row mt-5 mb-5 pb-5 pt-5" id="experiencedid">
             <div class="col-5 align-self-center">
                 <h1>I am experienced in </h1>
             </div>
             <div class="col-7 d-flex">
 
-                <div class=" me-5 ms-5" style="width: 8rem;">
-                    <img src="./image/pythonlogo.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                <div class=" me-5 ms-5 experienced-icons" style="width: 8rem;">
+                    <img  src="./image/pythonlogo.svg" style="height: 8rem;" class="card-img-top" alt="...">
                     
                 </div>
 
-                <div class=" me-5 " style="width: 8rem;">
-                    <img src="./image/c++logo.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                <div class=" me-5 experienced-icons" style="width: 8rem;">
+                    <img  src="./image/c++logo.svg" style="height: 8rem;" class="card-img-top" alt="...">
                     
                 </div>
 
-                <div class="me-5 " style="width: 8rem;">
-                    <img src="./image/javalogo.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                <div class="me-5 experienced-icons" style="width: 8rem;">
+                    <img  src="./image/javalogo.svg" style="height: 8rem;" class="card-img-top" alt="...">
                     
                 </div>
 
-                <div class="me-5 " style="width: 8rem;">
-                    <img src="./image/HTML5.svg" style="height: 8rem;" class="card-img-top" alt="...">
+                <div class="me-5 experienced-icons" style="width: 8rem;">
+                    <img  src="./image/HTML5.svg" style="height: 8rem;" class="card-img-top" alt="...">
                     
                 </div>
             </div>
